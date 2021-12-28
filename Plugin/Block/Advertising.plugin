@@ -166,9 +166,9 @@
 # G
 # > Google - *.googlevideo.com,www.youtube.com,s.youtube.com
 # ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
-^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
+##by me ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+##by me ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+##by me ^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
 # > Gofun - gateway.shouqiev.com
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
 # > Guotai Junan Securities - dl.app.gtja.com
